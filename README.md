@@ -16,8 +16,8 @@ It's a great idea to add a screenshot of your project here!
 ## 🚀 Live Demo
 
 Once you deploy your site using GitHub Pages, you can link it here.
-
-**[Check out the live website here!](https://your-github-username.github.io/garam-galli/)**
+download the files and runserver 
+find the website on this web address 'http://127.0.0.1:5500/'
 
 *(Remember to replace `your-github-username` with your actual GitHub username)*
 
@@ -78,9 +78,6 @@ Contributions are what make the open-source community such an amazing place to l
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-*(You should add a file named `LICENSE.txt` to your repo containing the MIT License text.)*
-
 ---
 
 ## 📧 Contact
