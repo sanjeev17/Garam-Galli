@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An e-commerce website for showcasing products and services.">
+    <meta name="keywords" content="e-commerce, online shopping, products, services">
+    <script src="https://kit.fontawesome.com/25491091a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <section id="header">
+    <a href="#" style="display: inline-block;">
+        <img src="img/logo.png" class="logo" alt="" style="height:80px; width:auto; display:block; margin-left:-30px;">
+    </a>
+    <div>
+        <ul id="navbar">
+            <li><a href="#" id="close"><i class="fas fa"></i></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+</section>
+<!-- About Us Main Content -->
+<main class="flex-grow container mx-auto px-4 py-12 md:py-20">
+    <section class="bg-white rounded-lg shadow-xl p-8 md:p-12 mb-12">
+        <h2 class="text-4xl md:text-5xl font-bold text-center font-lobster text-garam-brown mb-8 md:mb-10 animate-fade-in">
+            About Garam Galli
+        </h2>
+        <div class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed space-y-6">
+            <p>
+                Welcome to <span class="font-semibold text-garam-brown">Garam Galli</span>, your ultimate destination for authentic Indian street food, delivered right to your doorstep! We believe that the vibrant, mouth-watering flavors of India's bustling streets shouldn't be confined to specific locations. Our mission is to bridge that gap, bringing the true essence of 'Galli' (street) food to your home kitchen.
+            </p>
+            <p>
+                Born in the heart of <span class="font-semibold text-garam-brown">Bengaluru</span>, Garam Galli was founded on a passion for preserving traditional recipes and culinary techniques. We meticulously source the freshest ingredients and employ skilled chefs who craft each dish with the love and dedication it deserves. From the crispy crunch of a Samosa to the tangy explosion of Golgappe and the rich spices of a Pav Bhaji, every bite is designed to transport you straight to the lively food stalls of India.
+            </p>
+            <p>
+                Our commitment extends beyond just taste; we prioritize hygiene, quality, and convenience. Enjoy gourmet street food experiences without stepping out, perfect for family gatherings, solo cravings, or a fun meal with friends. Garam Galli is more than just a food delivery service – it's a celebration of India's rich culinary heritage.
+            </p>
+        </div>
+    </section>
+
+    <!-- Our Values/Mission Section -->
+    <section class="grid md:grid-cols-2 gap-8 mb-12">
+        <div class="bg-garam-yellow rounded-lg p-8 shadow-md text-garam-brown">
+            <h3 class="text-3xl font-semibold mb-4">Our Vision</h3>
+            <p class="text-lg">To be the leading platform for authentic Indian street food, recognized for our quality, taste, and commitment to bringing traditional flavors to every home, everywhere.</p>
+        </div>
+        <div class="bg-white rounded-lg p-8 shadow-md">
+            <h3 class="text-3xl font-semibold text-garam-brown mb-4">Our Commitment</h3>
+            <ul class="list-disc list-inside text-lg text-gray-700 space-y-2">
+                <li>Authentic Flavors: Sticking to traditional recipes.</li>
+                <li>Quality Ingredients: Sourcing fresh, premium produce.</li>
+                <li>Hygiene & Safety: Ensuring every dish is prepared with care.</li>
+                <li>Customer Satisfaction: Your delight is our top priority.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="bg-white rounded-lg shadow-xl p-8 md:p-10 text-center">
+        <h3 class="text-3xl font-bold text-garam-brown mb-6">Connect With Us!</h3>
+        <p class="text-lg text-gray-700 mb-8">Follow us on social media to stay updated on our latest offerings, special deals, and mouth-watering content!</p>
+        <div class="flex justify-center space-x-8">
+            <a href="https://facebook.com/garamgalli" target="_blank" aria-label="Facebook"
+               class="text-garam-brown text-4xl hover:text-blue-600 transition-colors duration-300">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com/garamgalli_official" target="_blank" aria-label="Instagram"
+               class="text-garam-brown text-4xl hover:text-pink-600 transition-colors duration-300">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/garamgalli_in" target="_blank" aria-label="Twitter"
+               class="text-garam-brown text-4xl hover:text-blue-400 transition-colors duration-300">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://youtube.com/garamgalli" target="_blank" aria-label="YouTube"
+               class="text-garam-brown text-4xl hover:text-red-600 transition-colors duration-300">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </section>
+</main>
+<section id="newsletter" class="section-p1">
+    <div class="newstext">
+        <h4>Sign Up for Newsletter</h4>
+        <p>Get E-mail updates about our latest shop and special offers.</p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your Email Address">
+        <button class="normal">SignUp</button>
+    </div>
+</section>
+<footer class="section-p1">
+    <div class="footer-row">
+        <div class="col">
+            <img src="img/logo.png" class="logo" alt="" style="height:80px; width:auto; display:block; margin-left:-30px;">
+            <p><strong>Address:</strong> roorkee Street, Roorkee, India</p>
+            <p><strong>Phone:</strong> +91 9555899181</p>
+            <p><strong>Email:</strong> sanjeevrai4970@gmail.com</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <p>Stay connected with us on social media.</p>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About Us</h4>
+            <p>Learn more about our story and values.</p>
+            <a href="about.html" class="normal">About us</a>
+            <a href="story.html" class="normal">Our Story</a>
+            <a href="newsletter.html" class="normal">Newsletter</a>
+            <a href="contact.html" class="normal">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>Useful Links</h4>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Shipping Policy</a>
+            <a href="#">Cancellation Policy</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From the Play Store or App Store</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="App Store" style="width:130px; height:auto;">
+                <img src="img/pay/play.jpg" alt="Play Store" style="width:130px; height:auto;">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="Payment Methods" style="width:100%; height:auto;">
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023, Sanjeev Rai. All rights reserved.</p>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
