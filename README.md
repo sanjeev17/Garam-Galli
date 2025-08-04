@@ -9,7 +9,7 @@ Welcome to Garam Galli, your digital gateway to the vibrant and delicious world 
 It's a great idea to add a screenshot of your project here!
 
 *Replace this line with a screenshot of your homepage. You can add it to your repo and link it like this:*
-`![Garam Galli Screenshot](./images/screenshot.png)`
+`C:\Users\sanje\Downloads\projects\e commerce website`
 
 ---
 
@@ -85,6 +85,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## 📧 Contact
 
-Your Name - [@your_twitter_handle](https://twitter.com/your_twitter_handle) - your.email@example.com
+Your Name - [@your_twitter_handle](https://x.com/SanjeevRai69356) - sanjeevrai4970@gmail.com
 
 Project Link: [https://github.com/your-github-username/garam-galli](https://github.com/your-github-username/garam-galli)
